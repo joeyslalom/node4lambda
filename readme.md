@@ -1,0 +1,18 @@
+# node4lambda
+
+Getting started with a NodeJS project on AWS Lambda
+
+1. Git repo on AWS CodeCommit
+2. Add SSH key to AWS IAM user
+3. Add policies to AWS IAM user:
+    * IAMUserSSHKeys
+    * IAMReadOnlyAccess
+    * AWSCodeCommitFullAccess
+4. Express.js skeleton project
+    * GitIgnore: https://github.com/github/gitignore/blob/master/Node.gitignore
+5. Create pipeline in AWS CodePipeline
+    * Add AWS CodeBuild w/image: aws/codebuild/nodejs:7.0.0
+    * Add AWS CloudFormation
+      * Action: create or update stack
+      * Capability: CAPABILITY_IAM
+      
