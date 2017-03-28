@@ -2,16 +2,21 @@ version: 0.1
 phases:
   build:
     commands:
-      npm install
+      - npm install
+  install:
+    commands:
+      - npm install time
+      - aws cloudformation package --template-file samTemplate.yml --s3-bucket s3://node4lambda-bucket --output-template-file NewSamTemplate.yml
+
 
 artifacts:
   type: zip
   files:
-    - package.json
     - app.js
+    - package.json
     - bin/*
     - routes/*
     - views/*
     - public/**/*
     - node_modules/**/*
-    - template.json
+    - NewSamTemplate.yml

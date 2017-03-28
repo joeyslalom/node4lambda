@@ -22,3 +22,13 @@ Getting started with a NodeJS project on AWS Lambda
     * configuration.json
       * http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/continuous-delivery-codepipeline-action-reference.html
       
+1. Restart #4 
+   * http://docs.aws.amazon.com/lambda/latest/dg/automating-deployment.html
+     * Add index.js
+     * Add samTemplate.yml
+   * Add a role in AWS IAM
+     * Role Type: AWS CloudFormation
+     * Attach Policy: AWS Lambda Execute
+     * Inline Role Policy: (Copy and paste)
+   
+   
