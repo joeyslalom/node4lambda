@@ -20,4 +20,5 @@ Getting started with a NodeJS project on AWS Lambda
     * template.json
       * http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-lambda.html
     * configuration.json
+      * http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/continuous-delivery-codepipeline-action-reference.html
       
