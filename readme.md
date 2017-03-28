@@ -15,4 +15,9 @@ Getting started with a NodeJS project on AWS Lambda
     * Add AWS CloudFormation
       * Action: create or update stack
       * Capability: CAPABILITY_IAM
+    * Add buildspec.yml
+6. Configure AWS CloudFormation
+    * template.json
+      * http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-lambda.html
+    * configuration.json
       

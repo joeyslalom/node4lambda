@@ -9,3 +9,8 @@ artifacts:
   files:
     - package.json
     - app.js
+    - bin/*
+    - routes/*
+    - views/*
+    - public/**/*
+    - node_modules/**/*
