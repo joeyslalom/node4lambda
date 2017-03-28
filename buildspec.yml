@@ -14,3 +14,4 @@ artifacts:
     - views/*
     - public/**/*
     - node_modules/**/*
+    - template.json
