@@ -30,5 +30,15 @@ Getting started with a NodeJS project on AWS Lambda
      * Role Type: AWS CloudFormation
      * Attach Policy: AWS Lambda Execute
      * Inline Role Policy: (Copy and paste)
+2. Run pipeline. This creates a service role. Find role in AWS IAM
+   * Expand Inline policy, create
+   * Policy Generator -> Select 
+     * AWS Service: Amazon S3
+     * Actions: Put Object
+     * ARN: arn:aws:s3:::bucket-name
+3. Modify pipeline, modify Beta stage
+   * Add action below
+     * Deploy
+     * Execute Change Set
    
    
