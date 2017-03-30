@@ -40,5 +40,6 @@ Getting started with a NodeJS project on AWS Lambda
    * Add action below
      * Deploy
      * Execute Change Set
+   * Copy-pasta needed to be updated with account-id
    
    
