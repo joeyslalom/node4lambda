@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: Outputs the time
+Description: AWS example to ouput the time
 Resources:
   TimeFunction:
     Type: AWS::Serverless::Function
@@ -12,5 +12,5 @@ Resources:
         MyTimeApi:
           Type: Api
           Properties:
-            Path: /TimeResource
+            Path: /TimePath
             Method: GET
