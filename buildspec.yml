@@ -1,8 +1,5 @@
 version: 0.1
 phases:
-  build:
-    commands:
-      - npm install
   install:
     commands:
       - npm install time
@@ -12,11 +9,4 @@ phases:
 artifacts:
   type: zip
   files:
-    - app.js
-    - package.json
-    - bin/*
-    - routes/*
-    - views/*
-    - public/**/*
-    - node_modules/**/*
     - NewSamTemplate.yml
